@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout</title>
+    <link rel="shortcut icon" href="imgs/tree.jpg">
+    <link rel="stylesheet" href="css/scout.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300&display=swap"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"> 
+</head>
+<body>
+    <section class="page">
+        <header class="header">
+            <div class="container">
+                <nav class="links">
+                    <h3 class="logo">scout<span class="dot">.</span></h3>
+                    <ul class="mainlist rstul">
+                        <li>
+                            <a class="rsta active" href="#">home</a>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">features</a>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">pricing</a>
+                        </li>
+                        <li class="has-children">
+                            <a class="rsta" href="#">
+                                dropdown
+                                <i class="fa-solid fa-angle-down angle-down"></i>
+                            </a>
+                            <ul class="dropdown rstul hide dropdownul1">
+                                <li>
+                                    <a href="#" class="rsta">about</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">elements</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">web</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">HTML</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">CSS</a>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#" class="rsta">
+                                        menu two
+                                        <i class="fa-solid fa-angle-right angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown rstul hide dropdownul2">
+                                        <li>
+                                            <a href="#" class="rsta">web</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="rsta">HTML</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="rsta">CSS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">menu three</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="#" class="rsta">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#" class="rsta">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="rsta">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="menu-bar">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-head">
+                    <i class="fa-solid fa-x fa-2x closex"></i>
+                </div>
+                <div class="menu-body">
+                    <ul class="mainlist rstul">
+                        <li>
+                            <a class="rsta active" href="#">home</a>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">features</a>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">pricing</a>
+                        </li>
+                        <li class="has-children menu1">
+                            <a class="rsta" href="#">
+                                dropdown
+                                <i class="fa-solid fa-angle-down angle-down1"></i>
+                            </a>
+                            <ul class="dropdown rstul hide dropdownul1">
+                                <li>
+                                    <a href="#" class="rsta">about</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">elements</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">web</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">HTML</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">CSS</a>
+                                </li>
+                                <li class="has-children menu2">
+                                    <a href="#" class="rsta">
+                                        menu two
+                                        <i class="fa-solid fa-angle-down angle-down2"></i>
+                                    </a>
+                                    <ul class="dropdown rstul hide dropdownul2">
+                                        <li>
+                                            <a href="#" class="rsta">web</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="rsta">HTML</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="rsta">CSS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="rsta">menu three</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="rsta" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="photo">
+            <div class="image"></div>
+            <div class="container">
+                <div class="counterdiv">
+                    <h3 class="title">Always deliver more than expected<span class="dot">.</span></h3>
+                    <p class="desc">Quisque tristique varius sapien vitae tempor. Etiam at malesuada nisl, in varius mi. Integer vel sapien quis elit gravida ultrices.</p>
+                    <div class="counter">
+                        <div class="box projects">
+                            <span class="number" data-goal="205">0</span>
+                            <span class="details">Projects<br>Build</span>
+                        </div>
+                        <div class="box customers">
+                            <span class="number" data-goal="700">0</span>
+                            <span class="details">Customer<br>Happy</span>
+                        </div>
+                        <div class="box years">
+                            <span class="number" data-goal="22">0</span>
+                            <span class="details">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="feat title">
+                    <h3>Better solutions for your business</h3>
+                    <p>From the countries Vokalia and Consonantia</p>
+                </div>
+                <div class="feat">
+                    <i class="fa-solid fa-message fa-2x"></i>
+                    <h4>messaging</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="feat">
+                    <i class="fa-solid fa-layer-group fa-2x"></i>
+                    <h4>layers</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="feat">
+                    <i class="fa-solid fa-rocket fa-2x"></i>
+                    <h4>startup</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container">
+                <div class="desc">
+                    <span class="sectitle">pricing for all</span>
+                    <p class="secp">
+                        Far far away, behind the word mountains,<br>
+                        far from the countries .
+                    </p>
+                </div>
+                <div class="plans">
+                    <div class="plan">
+                        <h4>standard</h4>
+                        <span class="price">$28.00</span>
+                        <ul class="rstul">
+                            <li>basic support</li>
+                            <li>migration support</li>
+                            <li>dedicated technical support</li>
+                            <li>services</li>
+                        </ul>
+                        <a class="button rstbttn rsta">get started</a>
+                    </div>
+                    <div class="plan active">
+                        <h4>business</h4>
+                        <span class="price">$28.00</span>
+                        <ul class="rstul">
+                            <li>basic support</li>
+                            <li>migration support</li>
+                            <li>dedicated technical support</li>
+                            <li>services</li>
+                        </ul>
+                        <a class="button rstbttn rsta">get started</a>
+                    </div>
+                    <div class="plan">
+                        <h4>enterprise</h4>
+                        <span class="price">$28.00</span>
+                        <ul class="rstul">
+                            <li>basic support</li>
+                            <li>migration support</li>
+                            <li>dedicated technical support</li>
+                            <li>services</li>
+                        </ul>
+                        <a class="button rstbttn rsta">get started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutus">
+            <div class="container">
+                <div class="about">
+                    <div class="row1">
+                        <span class="sectitle">about us</span>
+                        <p class="secp">Far far away, behind the word mountains, far from the countries .</p>
+                    </div>
+                    <div class="row2">
+                        <div class="box">
+                            <div class="icon center">
+                                <i class="fa-solid fa-rocket fa-2x"></i>
+                            </div>
+                            <h4>launch</h4>
+                            <p>Far far away, behind the word mountains, far from the countries .</p>
+                        </div>
+                        <div class="box">
+                            <div class="icon center">
+                                <i class="fa-solid fa-lock fa-2x"></i>
+                            </div>
+                            <h4>security</h4>
+                            <p>Far far away, behind the word mountains, far from the countries .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="porttait">
+                    <div class="col1">
+                        <img src="imgs/grid-1-min.jpg" alt="">
+                        <img src="imgs/grid-2-min.jpg" alt="">
+                    </div>
+                    <div class="col2">
+                        <img src="imgs/grid-3-min.jpg" alt="">
+                        <img src="imgs/grid-4-min.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ceo-info">
+            <div class="image">
+            </div>
+            <div class="maxim">
+                <q>Quisque tristique varius sapien vitae tempor. Etiam at malesuada nisl, in varius mi. Integer vel sapien quis elit gravida ultrices. Proin volutpat sem ligula, eu pharetra justo pulvinar a. Donec eget laoreet tellus. Vestibulum sagittis dignissim nulla ut lacinia.</q>
+                <div class="ceo">
+                    <img src="imgs/person-testimonial.jpg" alt="">
+                    <div class="founder">
+                        <span class="ceoname">riley collis</span>
+                        <span class="ceotitle">CEO, Co-Founder</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="whyus">
+            <div class="container">
+                <div class="desc">
+                    <span class="sectitle">why us</span>
+                    <p class="secp">
+                        Far far away, behind the word mountains,<br>
+                        far from the countries.
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="howto">
+                        <ul class="rstul">
+                            <li class="active">
+                                <i class="fa-solid fa-angle-right"></i>
+                                how to download and register?
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angle-right"></i>
+                                how to create your portal account?
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angle-right"></i>
+                                how to link paypal and bank account?
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angle-right"></i>
+                                how to subscribe to your newsletter?
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider">
+                        <div class="images">
+                            <img class="active" src="imgs/grid-4-min.jpg" alt="" data-imgslider="img1">
+                            <img src="imgs/grid-1-min.jpg" alt="" data-imgslider="img2">
+                            <img src="imgs/grid-4-min.jpg" alt="" data-imgslider="img3">
+                            <img src="imgs/grid-1-min.jpg" alt="" data-imgslider="img4">
+                        </div>
+                        <div class="bullets">
+                            <ul class="rstul">
+                                <li class="active" data-imgslider="img1"></li>
+                                <li data-imgslider="img2"></li>
+                                <li data-imgslider="img3"></li>
+                                <li data-imgslider="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="container">
+                <div class="content">
+                    <div class="desc">
+                        <span class="sectitle">testimonial</span>
+                        <p class="secp">Happy clients</p>
+                    </div>
+                    <div class="clients">
+                        <div class="client active" data-clientlider="person1">
+                            <img src="imgs/person_1.jpg" alt="">
+                            <span class="name">Adam Aderson</span>
+                            <q>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</q>
+                        </div>
+                        <div class="client" data-clientlider="person2">
+                            <img src="imgs/person_2.jpg" alt="">
+                            <span class="name">Lukas Devlin</span>
+                            <q>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</q>
+                        </div>
+                        <div class="client" data-clientlider="person3">
+                            <img src="imgs/person_4.jpg" alt="">
+                            <span class="name">Kayla Bryant</span>
+                            <q>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</q>
+                        </div>
+                    </div>
+                    <div class="bullets">
+                        <ul class="rstul">
+                            <li class="active" data-clientlider="person1"></li>
+                            <li data-clientlider="person2"></li>
+                            <li data-clientlider="person3"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="letstalk">
+            <div class="container">
+                <div class="content">
+                    <h3>Good people stablishes trust</h3>
+                    <p>Do you have a project in mind?</p>
+                    <a class="button rsta">let's talk</a>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="col1">
+                    <div class="help">
+                        <span>help</span>
+                        <ul class="rstul">
+                            <li>
+                                <a href="#" class="rsta">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Untree.co</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Web Design</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <span>about</span>
+                        <ul class="rstul">
+                            <li>
+                                <a href="#" class="rsta">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Solutions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Team</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="support">
+                        <span>support</span>
+                        <ul class="rstul">
+                            <li>
+                                <a href="#" class="rsta">Knowledge base</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Forum</a>
+                            </li>
+                            <li>
+                                <a href="#" class="rsta">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col2">
+                    <span>subscribe</span>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Email address">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>Copyright &copy;2022. All Rights Reserved. — Designed with love by <span>Ahmed Khaled</span></p>
+            </div>
+        </footer>
+    </section>
+    <script src="js/scout.js"></script>
+</body>
+</html>
